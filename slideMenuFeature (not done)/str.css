@@ -77,10 +77,6 @@ p {
 	transition: color 1.6s .5s ease;
 }
 
-/*? Variables */
-
-:root {}
-
 /*? Page Wrapper */
 .page-wrapper {
 	width: 100%;
