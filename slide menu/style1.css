@@ -1,0 +1,71 @@
+.block {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+section.intro-block {
+	background-color: rgb(150, 97, 29);
+
+	-webkit-transition: background-color 1.6s 0.4s ease;
+	-moz-transition: background-color 1.6s 0.4s ease;
+	-o-transition: background-color 1.6s 0.4s ease;
+	transition: background-color 1.6s 0.4s ease;
+}
+
+.slide-menu-button-activator-wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.slide-menu-button-activator-container {
+	width: 40%;
+	height: 97vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	background-color: rgb(255, 255, 255);
+	border-radius: 3rem;
+}
+
+.slide-menu-button-activator-description {
+	margin: 0 .4rem;
+	padding: 1.5rem 0;
+
+	font-size: 1.8rem;
+	color: black;
+}
+
+.slide-menu-button-activator {
+	width: 12.3rem;
+	height: 3.1rem;
+	background-color: rgb(255, 255, 255);
+	border:
+		/*solid 3px rgb(255, 255, 255)*/
+		none;
+	border-radius: 1.2rem;
+	cursor: pointer;
+
+	font-size: 1.4rem;
+
+	-webkit-transition: all .3s 0s ease;
+	-moz-transition: all .3s 0s ease;
+	-o-transition: all .3s 0s ease;
+	transition: all .3s 0s ease;
+}
+
+.slide-menu-button-activator:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: rgb(255, 255, 255);
+}
+
+.slide-menu-button-activator:active {}
