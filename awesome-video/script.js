@@ -13,4 +13,4 @@ function renderFinal() {
 	let rdInt = setInterval(renderImage, 20);
 	setTimeout(rdInt, 80);
 }
-setInterval(renderFinal, 30);
+setTimeout(renderFinal, 30);
