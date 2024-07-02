@@ -1,2 +1,3 @@
 # webFeatures
-Some features for web-pages, they are in testing (probably), so I shouldn't saying that this will work on your devices.
+Some features for web-pages
+> They are in testing (probably), so I shouldn't saying that this will work on your devices.
