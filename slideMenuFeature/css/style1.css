@@ -68,4 +68,6 @@ section.intro-block {
 	color: rgb(255, 255, 255);
 }
 
-.slide-menu-button-activator:active {}
+.slide-menu-button-activator:active {
+	background-color: rgb(255, 255, 255);
+}

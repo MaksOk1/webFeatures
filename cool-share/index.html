@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang='uk'>
 
+<!-- NOT DONE -->
+
 <head>
 	<meta charset='UTF-8'>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,7 +10,7 @@
 		content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui'>
 
 	<!-- Page Title -->
-	<title>Cool Video</title>
+	<title>Sharing</title>
 
 	<!-- Page Icon -->
 	<link rel='icon' href='' sizes='32x32' />
@@ -18,11 +20,11 @@
 	<meta name='msapplication-TileImage' content='' />
 
 	<!-- Page Base -->
-	<base href='index.html'>
+	<base href='/cool-share/base/'>
 
 	<!-- Css Connection -->
-	<link rel='stylesheet' href='/features test/cool-video/style.css'>
-	<link rel='stylesheet' href='/features test/cool-video/style-main.css'>
+	<link rel='stylesheet' href='css/style.css'>
+	<link rel="stylesheet" href="css/main.css">
 
 </head>
 
@@ -30,6 +32,13 @@
 
 <body>
 	<div class='page-wrapper'>
-
+		<form action="#">
+			<input type="file" id="imgfile" />
+			<input type="button" id="btnLoad" value="Load" onclick="main();" />
+		</form>
+		<canvas id="canvas"></canvas>
+		<div id="palette"></div>
+		<div id="complementary"></div>
 	</div>
+	<script src="js/app.js"></script>
 </body>

@@ -9,6 +9,9 @@ function renderImage() {
 	render.drawImage(videoIn, 0, 0, varCanvas.width, varCanvas.height);
 }
 
+/**
+ * 
+ */
 function renderFinal() {
 	let rdInt = setInterval(renderImage, 20);
 	setTimeout(rdInt, 80);
