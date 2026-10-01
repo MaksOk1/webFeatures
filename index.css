@@ -1,0 +1,39 @@
+:root {
+    color-scheme: light dark;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    background: Canvas;
+    color: CanvasText;
+}
+
+main {
+    width: min(100%, 600px);
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+li {
+    margin: 0.4rem 0;
+}
+
+a {
+    color: LinkText;
+}
